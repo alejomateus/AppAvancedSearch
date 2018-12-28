@@ -1,0 +1,33 @@
+.ngx-datepicker-container[_ngcontent-c3] .ngx-datepicker-calendar-container[_ngcontent-c3] {
+    position: absolute;
+    width: 300px;
+    z-index: 1 !important;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
+    border: 1px solid #dfe3e9;
+    border-radius: 4px;
+}
+.ngx-datepicker-container[_ngcontent-c3] .ngx-datepicker-input[_ngcontent-c3] {
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 100% !important;
+    outline: 0;
+    border: 1px solid #dfe3e9;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid red;
+    border-bottom: 16px solid red;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    position: absolute;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
